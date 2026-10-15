@@ -1,0 +1,11 @@
+{
+  "name": "bynor",
+  "owner": { "name": "Bynor", "url": "https://bynor.ai" },
+  "plugins": [
+    {
+      "name": "bynor",
+      "source": "./",
+      "description": "Bynor for social media: plans, on-brand images and carousels, scheduling, publishing, comments and analytics."
+    }
+  ]
+}

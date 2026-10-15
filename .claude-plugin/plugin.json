@@ -1,0 +1,19 @@
+{
+  "name": "bynor",
+  "version": "0.1.0",
+  "description": "Bynor for social media: brand analysis, editorial plans, on-brand images and carousels, scheduling and publishing to Instagram, Facebook, TikTok, YouTube and LinkedIn, comments and analytics.",
+  "author": {
+    "name": "Bynor",
+    "url": "https://bynor.ai"
+  },
+  "homepage": "https://bynor.ai",
+  "keywords": [
+    "social media",
+    "content calendar",
+    "editorial plan",
+    "instagram",
+    "tiktok",
+    "linkedin",
+    "mcp"
+  ]
+}
