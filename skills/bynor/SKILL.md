@@ -20,7 +20,8 @@ it; if it might, explain what it would do and let the user decide.
 - **Images and carousels**: on-brand visuals built from the brand's own best posts, its kit and logo, and the
   user's photos. A concept is agreed first; the pixels come after.
 - **Scheduling and publishing**: posts go out automatically at the planned time on the connected accounts. When an
-  AI assistant asks to publish, schedule or reply, Bynor waits for the user's confirmation.
+  AI assistant asks to publish, schedule, delete or reply, the user confirms it with a button, unless they told a
+  verified app to go ahead; a personal key runs only some of these on its own (see below).
 - **Community**: comments in one inbox, with suggested replies and automations.
 - **Analytics**: how posts and profiles perform, why a post did better or worse, and reports.
 
@@ -54,5 +55,15 @@ on the same address.
 Start with `session_open` for the brand, read `brand_context` before writing anything for it, and read `guide`
 for the area you are working in (visual, editorial, publishing, analytics, competitor, brand, inbox, team): it
 explains how Bynor works there with these tools. Everything that changes what the brand publishes, its identity or its
-team waits for the user's confirmation in a preview or in Bynor; uploading files and buying credits happen in the Bynor
-app.
+team is a proposal the user confirms in a preview or in Bynor. In a verified app the user can tell the assistant to go
+ahead, except for the team, the brand identity and TikTok posts, which always wait for the user's click.
+
+**With a personal key** (a script, with no person to click), only these run without a click, within the key's
+permissions: scheduling a post, publishing a post now, editing a scheduled post, moving scheduled posts to another
+time, replying to comments, setting up or changing automatic replies, and editing several slides of a carousel (the
+create permission: it uses AI credits). **Everything else waits for a person's click in Bynor**, with a personal key
+too: deleting cards, deleting a plan, deleting posts, deleting files from the Library, cancelling scheduled posts,
+sharing a plan with the client, redoing a plan, moving cards to another plan, opening a competitor, the team, the brand
+identity, and any TikTok post.
+
+Uploading files and buying credits happen in the Bynor app.

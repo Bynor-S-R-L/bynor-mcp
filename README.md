@@ -49,13 +49,18 @@ It is shown once; you can revoke it at any time.
 ## Permissions and safety
 
 - **Read** sees the brands you granted. **Create** writes plans, texts and visuals and uses AI credits. **Publish**
-  schedules and publishes posts and replies to comments. **Account** (apps only, never a personal key) invites and
-  manages the team and edits the brand identity.
+  schedules, publishes, deletes and cancels posts and plans, and replies to comments. **Account** (apps only, never a
+  personal key) sees, invites and manages the team and edits the brand identity.
 - From an assistant, publishing, scheduling, deleting, replying to comments and changes to the brand identity or the
   team are proposals you confirm with a button, in a preview or in Bynor. In a verified app you can instead tell the
   assistant to go ahead, except for the team, the brand identity and TikTok posts, which always wait for your click.
-- A personal key with the publish permission acts without a click, never deletes anything and cannot publish to
-  TikTok, where the privacy of each post is chosen by a person.
+- **With a personal key** (a script, with no person to click), only these run without a click, within the key's
+  permissions: scheduling a post, publishing a post now, editing a scheduled post, moving scheduled posts to another
+  time, replying to comments, setting up or changing automatic replies, and editing several slides of a carousel (the
+  create permission: it uses AI credits). **Everything else waits for a person's click in Bynor**, with a personal key
+  too: deleting cards, deleting a plan, deleting posts, deleting files from the Library, cancelling scheduled posts,
+  sharing a plan with the client, redoing a plan, moving cards to another plan, opening a competitor, the team, the
+  brand identity, and any TikTok post, whose privacy a person chooses.
 - Every connection can be removed from Bynor (Settings → Connected apps).
 
 ## Pricing
